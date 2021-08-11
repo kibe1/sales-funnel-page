@@ -1,0 +1,80 @@
+/*---------------------------------------------------------
+Project: CLab - Responsive Multi-purpose Template
+version: 1.0
+Author: VectorLab
+Web: http://thevectorlab.net
+-----------------------------------------------------------
+
+/*------------------------------------
+Table of Contents
+--------------------------------------
+01. type
+02. header
+03. overlay nav
+04. footer
+05. components
+06. bs reset
+07. utilities
+
+------------------------------------*/
+
+@import "variables";
+
+/*------------------------------------
+type
+------------------------------------*/
+@import "type";
+
+/*------------------------------------
+header
+------------------------------------*/
+@import "header";
+
+/*------------------------------------
+overlay nav
+------------------------------------*/
+@import "overlay-nav";
+
+/*------------------------------------
+footer
+------------------------------------*/
+@import "footer";
+
+
+/*------------------------------------
+Components
+------------------------------------*/
+@import "components/hero-banner";
+@import "components/buttons";
+@import "components/accordion";
+@import "components/blurb";
+@import "components/list-group";
+@import "components/carousel";
+@import "components/card";
+@import "components/form";
+@import "components/steps";
+@import "components/block-img";
+@import "components/progress-bar";
+@import "components/tabs";
+@import "components/table";
+@import "components/team";
+@import "components/typed";
+@import "components/countdown";
+@import "components/portfolio";
+@import "components/twitter";
+@import "components/floating-kit";
+@import "components/blog";
+@import "components/shop";
+
+
+/*------------------------------------
+bs reset
+------------------------------------*/
+@import "bs-reset";
+
+
+/*------------------------------------
+utilities
+------------------------------------*/
+@import "utilities";
+

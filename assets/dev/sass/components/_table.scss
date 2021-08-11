@@ -1,0 +1,68 @@
+/*------------------------------------
+table
+------------------------------------*/
+
+.vl-custom-table {
+  border-spacing: 0 1em;
+  border-collapse:separate;
+  h6{
+    font-size: 16px;
+    color: $gray-darker;
+  }
+  thead {
+    th {
+      vertical-align: middle;
+      border-bottom: none;
+      padding: .5rem 1.75rem;
+    }
+  }
+
+  th, td{
+    vertical-align: middle;
+    border-top: none;
+    font-family: $base-font;
+  }
+
+  td:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-left: 1px solid $canvas-color;
+  }
+  td:last-child {
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-right: 1px solid $canvas-color;
+  }
+
+  tbody {
+    td{
+      background: $white;
+      padding: 1.75rem;
+      border-top: 1px solid $canvas-color;
+      border-bottom: 1px solid $canvas-color;
+    }
+  }
+
+}
+
+.table-striped {
+  td, th{
+    vertical-align: middle;
+  }
+  tbody{
+    tr:nth-of-type(odd) {
+      background-color: rgba(0,0,0,.025);
+    }
+  }
+}
+
+.table {
+  thead {
+    th {
+      border-bottom-width: 1px;
+    }
+  }
+  .btn{
+    white-space: nowrap;
+  }
+}
