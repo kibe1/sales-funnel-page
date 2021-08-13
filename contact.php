@@ -24,7 +24,7 @@ if(isset($_POST['submit'])){
 // username => root
 // password => empty
 // database name => stacey
-    $conn = mysqli_connect("localhost", "root", "", "stacey");
+    $conn = mysqli_connect("localhost", "root", "password", "database_name");
 
 // Check connection
     if($conn === false){
@@ -64,16 +64,15 @@ if(isset($_POST['submit'])){
         $mail->isSMTP();                                            //Send using SMTP
         $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
         $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-        $mail->Username   = 'kibete20@gmail.com';                     //SMTP username
-        $mail->Password   = 'Blessed@2020';                               //SMTP password
+        $mail->Username   = 'email_from';                     //SMTP username
+        $mail->Password   = 'password';                               //SMTP password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
         $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
         //Recipients
-        $mail->setFrom('kibete20@gmail.com', 'Erick');
-        $mail->addAddress('kibete20@outlook.com', 'Erick');     //Add a recipient
-//    $mail->addAddress('tactutor248@gmail.com', 'Erick');     //Add a recipient
-        $mail->addAddress('cherukib@gmail.com', 'Erick');     //Add a recipient
+        $mail->setFrom('tactutor248@gmail.com', 'Stacey');
+    
+        $mail->addAddress('tactutor248@gmail.com', 'Stacey');     //Add a recipient
 
 //    //Attachments
 //    $mail->addAttachment('/var/tmp/file.tar.gz');         //Add attachments
