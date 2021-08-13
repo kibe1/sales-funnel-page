@@ -187,19 +187,15 @@
                     <p class="text-white">Footer</p>
                 </div>
 
-                <p class="text-muted font-lora">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem</p>
+                <p class="text-muted font-lora">PYTHON CODE COURSE: Project Oriented Programming for beginners</p>
             </div>
             <div class="col-md-4 mb-md-0 mb-4">
-                <h6 class="mb-4">Navigate</h6>
+                <h6 class="mb-4">Knowledge Base</h6>
                 <ul class="footer-link two-col-link">
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Landing Pages</a></li>
-                    <li><a href="#">App Pages</a></li>
-                    <li><a href="#">Inner Pages</a></li>
-                    <li><a href="#">Knowledge base</a></li>
-                    <li><a href="#">Hire an expert</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a target="_blank" href="https://www.youtube.com/watch?v=S0VmJniLV48&t=968s&ab_channel=POPcodeMaker">#1 Project: Basic Calculator</a></li>
+                    <li><a target="_blank" href="https://www.youtube.com/watch?v=m6L2f1gVMQ8&ab_channel=POPcodeMaker">#2 Project: Prime Time Game</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=TOUy8Rlu7xM&ab_channel=POPcodeMaker">#3 Project: Photo Gallery</a></li>
+                    <li><a target="_blank" href="https://www.youtube.com/watch?v=Zr5EUh2XDr0&t=1663s&ab_channel=POPcodeMaker">#4 Project: Widgets Code</a></li>
                 </ul>
             </div>
 
